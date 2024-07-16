@@ -66,4 +66,4 @@ jobs:
         with:
           app-name: 'azureappservicetestone'
           slot-name: 'production'
-          publish-profile: ${{ secrets.AzureAppService_PublishProfile_1234 }}
+          publish-profile: ${{ secrets.AzureAppService_PublishProfile_1234 }}/azureappservicetestone'
